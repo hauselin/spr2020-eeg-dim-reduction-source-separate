@@ -1,8 +1,10 @@
-# README
+# SPR 2020 symposium talk: generalized eigendecomposition
 
 [Society for Psychophysiological Research (SPR) Annual Meeting 2020](https://sprweb.org/general/custom.asp?page=2020_Program)
 
 This repository contains code for my talk at SPR's symposium - To predict or not to predict: Modeling EEG data, promises, and limitations.
+
+Talk: **Hypothesis-driven dimension reduction and source separation for time-domain EEG data** 
 
 This project is possible thanks to [SPR's research training grant](https://sprweb.org/page/Grants_Awards).
 
