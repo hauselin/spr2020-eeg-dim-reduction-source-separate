@@ -6,6 +6,20 @@ This repository contains code for my talk at SPR's symposium - To predict or not
 
 This project is possible thanks to [SPR's research training grant](https://sprweb.org/page/Grants_Awards).
 
+## Instructions
+
+Remember to set up your working directory or add folder to path first.
+
+To run the demo/tutorial, simulations, and analyses, open `simulations.m` in MATLAB.
+
+This MATLAB script simulates different sine waves at different sources/dipoles, mixes their activity via volume conduction, and performs generalized eigendecomposition (GED) on the simulated scalp EEG data (with sources mixed) to recover the simulated spatiotemporal and frequency characteristics.
+
+Helper functions called by `simulations.m`: `dipole_project.m`, `filterFGx.m`, `topoplotIndie.m`
+
+`emptyEEG.mat` contains two structures:
+- `EEG` (empty EEGLAB structure for storing EEG data)
+- `lf` (leadfield matrix for projecting dipole activity to 64 channels)
+
 ## Symposium talk abstract
 
 **Hypothesis-driven dimension reduction and source separation for time-domain EEG data** 
