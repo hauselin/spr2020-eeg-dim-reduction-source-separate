@@ -1,20 +1,19 @@
 # SPR 2020 symposium talk: generalized eigendecomposition
 
-[Society for Psychophysiological Research (SPR) Annual Meeting 2020](https://sprweb.org/general/custom.asp?page=2020_Program)
 
-This repository contains code for my talk at SPR's symposium - To predict or not to predict: Modeling EEG data, promises, and limitations.
+This repository contains the code and presentation slides for my talk at the 2020 [Society for Psychophysiological Research (SPR) Annual Meeting's](https://sprweb.org/general/custom.asp?page=2020_Program) symposium—To predict or not to predict: Modeling EEG data, promises, and limitations. 
 
-Talk: **Hypothesis-driven dimension reduction and source separation for time-domain EEG data** 
+Talk title: **Hypothesis-driven dimension reduction and source separation for time-domain EEG data** 
 
 This project is possible thanks to [SPR's research training grant](https://sprweb.org/page/Grants_Awards).
 
 ## Instructions
 
+[Download the entire repository here](https://github.com/hauselin/spr2020-eeg-dim-reduction-source-separate/archive/master.zip). To run the demo/tutorial, simulations, and analyses, open `simulations.m` in MATLAB.
+
 Remember to set up your working directory or add folder to path first.
 
-To run the demo/tutorial, simulations, and analyses, open `simulations.m` in MATLAB.
-
-This MATLAB script simulates different sine waves at different sources/dipoles, mixes their activity via volume conduction, and performs generalized eigendecomposition (GED) on the simulated scalp EEG data (with sources mixed) to recover the simulated spatiotemporal and frequency characteristics.
+This `simulations.m` MATLAB script simulates different sine waves at different sources/dipoles, mixes their activity and projects them to 64 scalp EEG electrodes, and performs generalized eigendecomposition (GED) on the simulated scalp EEG data (with sources mixed) to recover the simulated spatiotemporal and frequency characteristics.
 
 Helper functions called by `simulations.m`: `dipole_project.m`, `filterFGx.m`, `topoplotIndie.m`
 
