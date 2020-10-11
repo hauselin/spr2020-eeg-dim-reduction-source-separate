@@ -224,7 +224,7 @@ end
 
 %% run the code below if EEG channels and GED components don't align in Figure 4
 
-% Thanks to Jürgen Kayser for spotting this and suggesting the solution.
+% Thanks Jürgen Kayser for spotting this and suggesting the fix.
 
 for chani=1:2
     chanii = 2; if chani == 2; chanii = 1; end
